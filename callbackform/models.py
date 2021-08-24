@@ -11,7 +11,7 @@ class CallbackForm (models.Model):
     problem_descritpion = models.CharField(max_length=1000)
 #should be pickable date_time format
     support_date_time = models.DateTimeField(auto_now_add=True)
-    comment = models.TextField()
+    comment = models.TextField(null=True, blank=True)
     archive = models.BooleanField(default=False)
 
     def __str__(self):
