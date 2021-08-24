@@ -5,4 +5,8 @@ from django.http import HttpResponse
 
 def print_callback_form(request):
     """The home page for callbackform."""
-    return render(request, 'callbackform/index.html')
+    return render(request, 'callbackform/callbackform.html')
+
+def home(request):
+    """The home page for our customers."""
+    return render(request, 'main.html')   

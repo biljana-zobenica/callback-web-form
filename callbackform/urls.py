@@ -4,5 +4,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.print_callback_form),
+    path('callbackform/', views.print_callback_form),
+    path('', views.home),
 ]
