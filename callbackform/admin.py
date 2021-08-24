@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.db.models import query
-from .models import CallbackForm
+from .models import Callback
 
 # Register your models here.
 
@@ -8,7 +8,7 @@ from .models import CallbackForm
 def make_archieved(modeladmin, request, queryset):
     queryset.update(status='a')
 
-class CallbackFormAdmin (admin.ModelAdmin):
+class CallbackAdmin (admin.ModelAdmin):
     list_display = ('subject', 'name', 'comment', 'status')
     list_filter = ('submitted_date_time', 'support_date_time')
     actions = [make_archieved]
@@ -17,5 +17,9 @@ class CallbackFormAdmin (admin.ModelAdmin):
         # Disable delete
         return False
 
-admin.site.register(CallbackForm, CallbackFormAdmin)
+# apply this if we want the superuser to have permission to delete users' forms
+    #def has_delete_permission(request, obj=None):
+    #    return request.user.is_superuser()
+
+admin.site.register(Callback, CallbackAdmin)
 

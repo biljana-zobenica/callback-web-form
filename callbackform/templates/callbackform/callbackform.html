@@ -2,8 +2,10 @@
 
 {% block content %}
 
-<h1>Callbackform</h1>
-
-<p>This is our first text paragraph demo.</p>
+<form method="POST" action="">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Submit">
+</form>
 
 {% endblock content %}
