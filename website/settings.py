@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    'cs_forms.apps.CsFormsConfig',
+    
+    # activate our created app
+    'callbackform.apps.CallbackformConfig',
 ]
 
 MIDDLEWARE = [
