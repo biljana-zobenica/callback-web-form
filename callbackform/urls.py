@@ -5,8 +5,7 @@ from . import views
 
 
 urlpatterns = [
+    path('confirmation/', views.confirmation),
     path('callbackform/', views.print_callback_form),
-    path('success/', views.print_success),
     path('', views.home),
-    
 ]

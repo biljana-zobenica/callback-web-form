@@ -20,4 +20,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('callbackform.urls')),
+    path('success/', include('callbackform.urls')),
+    path('callbackform/', include('callbackform.urls')),
 ]

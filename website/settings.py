@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     # activate our created app
     'callbackform.apps.CallbackformConfig',
     # integrate bootstrap into our project
-    'bootstrap5',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
