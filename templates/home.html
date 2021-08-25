@@ -46,6 +46,11 @@
 <body>
 
 </body>
+<!-- this should go after your </body> -->
+<link rel="stylesheet" type="text/css" href="/jquery.datetimepicker.css"/ >
+<script src="/jquery.js"></script>
+<script src="/build/jquery.datetimepicker.full.min.js"></script>
+
 </html>
 
 
@@ -75,12 +80,12 @@
 <!-- Function that edit datetime picker functionality -->
 <script>
   var logic = function (currentDateTime) {
-    console.log(currentDateTime.getDay());
+    // console.log(currentDateTime.getDay());
     const working_days = [1, 2, 3, 4, 5];
     var actualdate = new Date();
     if ((actualdate.getDate() < currentDateTime.getDate()) || (actualdate.getMonth() < currentDateTime.getMonth())) {
       if (working_days.includes(currentDateTime.getDay())) {
-        console.log('radni dan');
+        console.log('working day');
         this.setOptions({
           minTime: '08:00',
           allowTimes: ['08:00', '08:30', '09:00', '09:30', '10:00', '10:30', '11:00', '11:30', '12:00', '12:30', '13:00',
@@ -105,7 +110,7 @@
     }
   };
 </script>
-<!-- Function that setup datetime picker -->
+<!-- Function setup datetime picker -->
 <script>
   $(function () {
     $("#id_support_date_time").datetimepicker({
@@ -119,7 +124,7 @@
 <script>
   $function() 
   {
-    $("#id_support_date_time").addClass("form-control");
+    $("#id_support_date_time").addClass('form-control');
   };
 </script>
 

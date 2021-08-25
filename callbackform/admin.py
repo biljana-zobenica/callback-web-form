@@ -13,8 +13,8 @@ class CallbackAdmin (admin.ModelAdmin):
     list_filter = ('submitted_date_time', 'support_date_time')
     actions = [make_archieved]
 
-    #def has_delete_permission(self, request, obj=None):
-    #    return False
+    def has_delete_permission(self, request, obj=None):
+        return False
 
 admin.site.register(Callback, CallbackAdmin)
 

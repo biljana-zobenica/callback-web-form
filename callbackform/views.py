@@ -3,7 +3,6 @@ from django.http import HttpResponse, HttpResponseRedirect
 from .models import Callback
 from .forms import CallbackForm
 
-
 # Create your views here.
 
 def print_callback_form(request):

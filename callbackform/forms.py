@@ -3,6 +3,7 @@ from .models import Callback
 from django import forms
 
 
+
 class CallbackForm(forms.ModelForm):
         required_css_class = 'required'
         name = forms.CharField(max_length= 50, required=True, widget=forms.TextInput(attrs={'class':'form-control', 'placeholder':'Enter your name'}))
@@ -12,6 +13,7 @@ class CallbackForm(forms.ModelForm):
         subject = forms.CharField(max_length= 200, required=True, widget=forms.TextInput(attrs={'class':'form-control', 'placeholder':'Enter your subject title'}))
         problem_description = forms.CharField(max_length= 1000, required= True, widget=forms.Textarea(attrs={'class':'form-control', 'placeholder':'Describe your issue'}))
         support_date_time = forms.DateTimeField(input_formats=['%d/%m/%Y %H:%M'])
+
 
         class Meta:
             model = Callback
