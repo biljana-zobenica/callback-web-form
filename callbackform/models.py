@@ -1,5 +1,6 @@
 from django.db import models
 from django.db.models.deletion import PROTECT
+from datetime import datetime
 
 # Create your models here.
 
@@ -15,7 +16,7 @@ class Callback (models.Model):
     email = models.EmailField()
     subject = models.CharField(max_length=200)
     problem_description = models.CharField(max_length=1000)
-    submitted_date_time = models.DateTimeField(null=True, blank=True)
+    submitted_date_time = models.DateTimeField(default = datetime.now, null=True, blank=True)
     support_date_time = models.DateTimeField(null=True, blank=True)
     comment = models.TextField(null=True, blank=True)
     status = models.CharField(max_length=1, choices=STATUS_CHOICES, default='Not reviewed')

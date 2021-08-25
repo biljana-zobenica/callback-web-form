@@ -43,6 +43,9 @@ INSTALLED_APPS = [
     'callbackform.apps.CallbackformConfig',
     # integrate bootstrap into our project
     'bootstrap4',
+    # add datetimepicker
+    'datetimepicker',
+    'bootstrap_datepicker_plus',
 
 ]
 

@@ -1,0 +1,8 @@
+.form-control {
+    width: 80%;
+}
+
+label.required::after {
+    content: ' *';
+    color: red;
+}
