@@ -13,13 +13,12 @@ class CallbackAdmin (admin.ModelAdmin):
     list_filter = ('submitted_date_time', 'support_date_time')
     actions = [make_archieved]
 
-    def has_delete_permission(self, request, obj=None):
-        # Disable delete
-        return False
-
-# apply this if we want the superuser to have permission to delete users' forms
-    #def has_delete_permission(request, obj=None):
-    #    return request.user.is_superuser()
+    #def has_delete_permission(self, request, obj=None):
+    #    return False
 
 admin.site.register(Callback, CallbackAdmin)
 
+
+# we woudl apply this if we want the superuser to have permission to delete users' forms
+    #def has_delete_permission(request, obj=None):
+    #    return request.user.is_superuser()

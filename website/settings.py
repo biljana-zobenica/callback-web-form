@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     
     # activate our created app
     'callbackform.apps.CallbackformConfig',
+    # integrate bootstrap into our project
+    'bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -72,6 +74,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'website.wsgi.application'
 
