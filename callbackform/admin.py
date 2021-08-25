@@ -9,7 +9,7 @@ def make_archieved(modeladmin, request, queryset):
     queryset.update(status='a')
 
 class CallbackAdmin (admin.ModelAdmin):
-    list_display = ('subject', 'name', 'comment', 'status')
+    list_display = ('subject', 'name', 'comment', 'status', 'submitted_date_time', 'support_date_time')
     list_filter = ('submitted_date_time', 'support_date_time')
     actions = [make_archieved]
 

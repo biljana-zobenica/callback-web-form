@@ -2,8 +2,8 @@
 {% load static %}
 {% block content %}
 
-<form method="POST" action="">
-    
+<form method="POST" action="" autocomplete="off">
+
     {% csrf_token %}
     {{form.as_p}}
 
