@@ -13,6 +13,7 @@ This is a web application based on Django web framework. It represents a custome
 * make a git repo for the project and connect it with your local project folder
 Also, it is possible to clone this repo and pull it to your local disk. The result is the same.
 
+
 - [x] Set up virtual environment
 
 The next step is to create virtual environment with these steps:
@@ -32,6 +33,7 @@ In some cases, it is necessary to add pipenv in the system's [PATH](https://supe
     
 **django-admin startapp <app-name>**
 > creates an app built-in files and structure
+
 
 - [x] Run the server
 
