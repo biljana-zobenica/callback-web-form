@@ -6,22 +6,37 @@ This is a web application based on Django web framework. It represents a custome
 
 - [x] Download the project files
 
-1. download the project files to your local machine:
+* download the project files to your local machine:
     a) go to the project repository
     b) "Code" -> download "ZIP" file
-2. unzip the project folder and navigate the same location in command prompt
-3. make a git repo for the project and connect it with your local project folder
+* unzip the project folder and navigate the same location in command prompt
+* make a git repo for the project and connect it with your local project folder
 Also, it is possible to clone this repo and pull it to your local disk. The result is the same.
 
 - [x] Set up virtual environment
 
 The next step is to create virtual environment with these steps:
 
-* pip install pipenv 
-# in some cases, it is necessary to add pipenv in the system's [PATH](https://superuser.com/questions/1372793/the-script-is-installed-in-directory-which-is-not-path).
+** pip install pipenv ** 
+> installs a virtual environment
+In some cases, it is necessary to add pipenv in the system's [PATH](https://superuser.com/questions/1372793/the-script-is-installed-in-directory-which-is-not-path).
 
+** pipenv install django **
+> installs django inside a virtual environment
 
-* pipenv install django
+** pipenv shell **
+> activates python interpreter within the project and isolates its development
+
+** django-admin startproject <project-name> . **
+> creates the project built-in files and structure
+    
+** django-admin startapp <app-name> **
+> creates an app built-in files and structure
 
 - [x] Run the server
 
+** python manage.py runserver <port-number> **
+> port number is by default 8000, so you can define yours if this one is already taken by some other app.
+> our first django app is finally lanuched!
+    
+![install_worked](https://user-images.githubusercontent.com/32877624/130936293-7933138a-1f07-4b4f-81cc-460d8bb3a673.png)
