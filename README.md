@@ -9,7 +9,7 @@ This is a web application based on Django web framework. It represents a custome
 * go to the project repository
 * Code -> download ZIP file
 * UNZIP the project folder and navigate the same location in command prompt
-* make a git repo for the project and connect it with your local project folder
+* make a git repo for the project and connect it with your local project folder.
 Also, it is possible to clone this repo and pull it to your local disk. The results are the same.
 
 - [x] SET UP VIRTUAL ENVIRONMENT
@@ -24,15 +24,15 @@ In some cases, it is necessary to add pipenv in the system's [PATH](https://supe
 **pipenv shell**
 > activate python interpreter within the project and isolate its development
 
-**django-admin startproject <project-name> .**
+**django-admin startproject (project-name) .**
 > create the project built-in files and structure
     
-**django-admin startapp <app-name>**
+**django-admin startapp (app-name)**
 > create an app built-in files and structure
 
 - [x] RUN SERVER
 
-**python manage.py runserver <port-number>**
+**python manage.py runserver (port-number)**
 > port number is by default 8000, so you can define yours.
 > Our first django app is finally lanuched!
     
