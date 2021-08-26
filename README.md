@@ -18,7 +18,8 @@ Also, it is possible to clone this repo and pull it to your local disk. The resu
 The next step is to create virtual environment with these steps:
 
 * pip install pipenv 
-# in some cases, it is necessary to add pipenv in the system's PATH.![add virenv to PATH](https://user-images.githubusercontent.com/32877624/130933190-9c01a944-6180-4a72-959b-8e8cffb6d9d8.png)
+# in some cases, it is necessary to add pipenv in the system's PATH.
+![add virenv to PATH](https://user-images.githubusercontent.com/32877624/130933190-9c01a944-6180-4a72-959b-8e8cffb6d9d8.png)
 
 
 * pipenv install django
