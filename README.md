@@ -17,25 +17,25 @@ Also, it is possible to clone this repo and pull it to your local disk. The resu
 
 The next step is to create virtual environment with these steps:
 
-** pip install pipenv ** 
+**pip install pipenv** 
 > installs a virtual environment
 In some cases, it is necessary to add pipenv in the system's [PATH](https://superuser.com/questions/1372793/the-script-is-installed-in-directory-which-is-not-path).
 
-** pipenv install django **
+**pipenv install django**
 > installs django inside a virtual environment
 
-** pipenv shell **
+**pipenv shell**
 > activates python interpreter within the project and isolates its development
 
-** django-admin startproject <project-name> . **
+**django-admin startproject <project-name> .**
 > creates the project built-in files and structure
     
-** django-admin startapp <app-name> **
+**django-admin startapp <app-name>**
 > creates an app built-in files and structure
 
 - [x] Run the server
 
-** python manage.py runserver <port-number> **
+**python manage.py runserver <port-number>**
 > port number is by default 8000, so you can define yours if this one is already taken by some other app.
 > our first django app is finally lanuched!
     
