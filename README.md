@@ -7,8 +7,8 @@ This is a web application based on Django web framework. It represents a custome
 - [x] DOWNLOAD PROJECT FILES
 
 * download the project files to your local machine:
-    a) go to the project repository
-    b) "Code" -> download "ZIP" file
+    - go to the project repository
+    - "Code" -> download "ZIP" file
 * unzip the project folder and navigate the same location in command prompt
 * make a git repo for the project and connect it with your local project folder
 Also, it is possible to clone this repo and pull it to your local disk. The result is the same.
