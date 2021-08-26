@@ -4,7 +4,7 @@ This is a web application based on Django web framework. It represents a custome
 
 # Installation steps
 ```
--> Download the project files
+- [x] Download the project files
 
 1. download the project files to your local machine:
     a) go to the project repository
@@ -13,16 +13,15 @@ This is a web application based on Django web framework. It represents a custome
 3. make a git repo for the project and connect it with your local project folder
 Also, it is possible to clone this repo and pull it to your local disk. The result is the same.
 
--> Set up virtual environment
+- [x] Set up virtual environment
 
 The next step is to create virtual environment with these steps:
 
 * pip install pipenv 
-# in some cases, it is necessary to add pipenv in the system's PATH.
-![add virenv to PATH](https://user-images.githubusercontent.com/32877624/130933190-9c01a944-6180-4a72-959b-8e8cffb6d9d8.png)
+# in some cases, it is necessary to add pipenv in the system's [PATH](https://superuser.com/questions/1372793/the-script-is-installed-in-directory-which-is-not-path).
 
 
 * pipenv install django
 
-> Run the server
+- [x] Run the server
 ```
