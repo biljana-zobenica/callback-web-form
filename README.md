@@ -12,11 +12,8 @@ This is a web application based on Django web framework. It represents a custome
 * unzip the project folder and navigate the same location in command prompt
 * make a git repo for the project and connect it with your local project folder
 Also, it is possible to clone this repo and pull it to your local disk. The result is the same.
-
-
+<br>
 - [x] Set up virtual environment
-
-The next step is to create virtual environment with these steps:
 
 **pip install pipenv** 
 > installs a virtual environment
@@ -33,8 +30,7 @@ In some cases, it is necessary to add pipenv in the system's [PATH](https://supe
     
 **django-admin startapp <app-name>**
 > creates an app built-in files and structure
-
-
+<br>
 - [x] Run the server
 
 **python manage.py runserver <port-number>**
