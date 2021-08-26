@@ -3,7 +3,7 @@
 This is a web application based on Django web framework. It represents a customer service support and include a customer form for complains. Additionally, it insludes a built-in admin database, which is customized to receive, track, sort and modify these forms. The web app is stored on GitHub and works in a virtual environment, which should be set previously.
 
 # Installation steps
-```
+
 - [x] Download the project files
 
 1. download the project files to your local machine:
@@ -24,4 +24,4 @@ The next step is to create virtual environment with these steps:
 * pipenv install django
 
 - [x] Run the server
-```
+
