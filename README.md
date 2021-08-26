@@ -34,7 +34,7 @@ In some cases, it is necessary to add pipenv in the system's [PATH](https://supe
 - [x] RUN SERVER
 
 **python manage.py runserver <port-number>**
-> port number is by default 8000, so you can define yours if this one is already taken by some other app.
-> our first django app is finally lanuched!
+> port number is by default 8000, so you can define yours.
+> Our first django app is finally lanuched!
     
 ![install_worked](https://user-images.githubusercontent.com/32877624/130936293-7933138a-1f07-4b4f-81cc-460d8bb3a673.png)
