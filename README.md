@@ -4,7 +4,7 @@ This is a web application based on Django web framework. It represents a custome
 
 # Installation steps
 
-- [x] Download the project files
+### - [x] Download the project files
 
 * download the project files to your local machine:
     a) go to the project repository
@@ -31,7 +31,7 @@ In some cases, it is necessary to add pipenv in the system's [PATH](https://supe
 **django-admin startapp <app-name>**
 > creates an app built-in files and structure
 
-- [x] ##Run the server
+- [x] Run the server
 
 **python manage.py runserver <port-number>**
 > port number is by default 8000, so you can define yours if this one is already taken by some other app.
